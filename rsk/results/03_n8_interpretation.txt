@@ -1,0 +1,90 @@
+RSK n=8 Head Interpretation Summary
+==================================================
+
+Attention Pattern Archetypes:
+  L0H0: column-focused (Q[1])
+  L0H1: column-focused (Q[4])
+  L0H2: broad/uniform
+  L0H3: column-focused (Q[5])
+  L0H4: column-focused (Q[3])
+  L0H5: column-focused (Q[2])
+  L0H6: column-focused (Q[6])
+  L0H7: column-focused (Q[7])
+  L1H0: column-focused (Q[2])
+  L1H1: column-focused (Q[4])
+  L1H2: cross-tableau
+  L1H3: column-focused (P[5])
+  L1H4: column-focused (Q[6])
+  L1H5: column-focused (Q[2])
+  L1H6: column-focused (Q[5])
+  L1H7: column-focused (Q[6])
+  L2H0: column-focused (Q[3])
+  L2H1: column-focused (Q[7])
+  L2H2: column-focused (P[5])
+  L2H3: column-focused (Q[6])
+  L2H4: column-focused (P[6])
+  L2H5: column-focused (P[2])
+  L2H6: column-focused (P[4])
+  L2H7: column-focused (Q[5])
+  L3H0: broad/uniform
+  L3H1: column-focused (P[7])
+  L3H2: column-focused (P[2])
+  L3H3: column-focused (Q[7])
+  L3H4: column-focused (P[7])
+  L3H5: column-focused (P[7])
+  L3H6: column-focused (P[4])
+  L3H7: column-focused (Q[5])
+  L4H0: broad/uniform
+  L4H1: column-focused (P[7])
+  L4H2: broad/uniform
+  L4H3: broad/uniform
+  L4H4: broad/uniform
+  L4H5: column-focused (P[7])
+  L4H6: column-focused (Q[5])
+  L4H7: broad/uniform
+  L5H0: broad/uniform
+  L5H1: broad/uniform
+  L5H2: broad/uniform
+  L5H3: broad/uniform
+  L5H4: broad/uniform
+  L5H5: broad/uniform
+  L5H6: column-focused (Q[5])
+  L5H7: broad/uniform
+
+Archetype distribution:
+  broad/uniform: 14 heads
+  column-focused (Q[5]): 6 heads
+  column-focused (P[7]): 5 heads
+  column-focused (Q[6]): 4 heads
+  column-focused (Q[2]): 3 heads
+  column-focused (Q[7]): 3 heads
+  column-focused (Q[4]): 2 heads
+  column-focused (Q[3]): 2 heads
+  column-focused (P[5]): 2 heads
+  column-focused (P[2]): 2 heads
+  column-focused (P[4]): 2 heads
+  column-focused (Q[1]): 1 heads
+  cross-tableau: 1 heads
+  column-focused (P[6]): 1 heads
+
+Direct Logit Attribution (top per position):
+  σ(1): L3H4(0.13), L3H3(0.10), L2H7(0.09)
+  σ(2): L3H6(0.21), L3H7(0.16), L3H4(0.13)
+  σ(3): L3H6(0.20), L3H2(0.14), L4H6(0.13)
+  σ(4): L3H7(0.25), L3H2(0.10), L5H6(0.09)
+  σ(5): L3H7(0.24), L5H6(0.16), L4H7(0.11)
+  σ(6): L3H1(0.11), L3H3(0.11), L3H4(0.09)
+  σ(7): L5H6(0.55), L4H6(0.24), L3H2(0.15)
+  σ(8): L5H6(0.47), L4H6(0.21), L3H2(0.15)
+
+Most domain-sensitive heads:
+  L3H6: 1.38× (tall vs involution)
+  L2H0: 1.37× (wide vs tall)
+  L1H5: 1.36× (wide vs involution)
+  L2H3: 1.27× (tall vs involution)
+  L3H0: 1.27× (wide vs tall)
+  L2H6: 1.26× (derangement vs involution)
+  L2H1: 1.24× (wide vs derangement)
+  L3H4: 1.20× (tall vs wide)
+  L5H6: 1.19× (involution vs wide)
+  L0H6: 1.17× (involution vs tall)

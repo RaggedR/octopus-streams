@@ -1,0 +1,35 @@
+{
+  "0": {
+    "total": 4096,
+    "dead": 315,
+    "alive": 3781,
+    "universal": 3504,
+    "shared": 248,
+    "domain_specific": 29,
+    "pct_dead": 7.7,
+    "pct_universal": 92.7,
+    "pct_domain_specific": 0.8
+  },
+  "3": {
+    "total": 4096,
+    "dead": 423,
+    "alive": 3673,
+    "universal": 1629,
+    "shared": 1776,
+    "domain_specific": 268,
+    "pct_dead": 10.3,
+    "pct_universal": 44.4,
+    "pct_domain_specific": 7.3
+  },
+  "5": {
+    "total": 4096,
+    "dead": 3658,
+    "alive": 438,
+    "universal": 329,
+    "shared": 77,
+    "domain_specific": 32,
+    "pct_dead": 89.3,
+    "pct_universal": 75.1,
+    "pct_domain_specific": 7.3
+  }
+}

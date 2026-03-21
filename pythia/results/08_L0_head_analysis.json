@@ -1,0 +1,1190 @@
+{
+  "layer": 0,
+  "n_heads": 8,
+  "heads": {
+    "0": {
+      "attention_profile": {
+        "self_attention": 0.0777,
+        "bos_attention": 0.0789,
+        "prev_token_attention": 0.0737,
+        "entropy_normalized": 0.8891,
+        "avg_lookback": 15.7112,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "prose",
+        "min_domain": "random",
+        "ratio": 2.42,
+        "per_domain": {
+          "random": 1.1652,
+          "wiki": 2.3573,
+          "poetry": 2.7386,
+          "prose": 2.822,
+          "code": 2.2735
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": " reconciliation",
+            "logit": 3.3348
+          },
+          {
+            "token": " order",
+            "logit": 3.322
+          },
+          {
+            "token": " follow",
+            "logit": 3.2786
+          },
+          {
+            "token": " publish",
+            "logit": 3.2774
+          },
+          {
+            "token": " deception",
+            "logit": 3.2409
+          },
+          {
+            "token": " improved",
+            "logit": 3.238
+          },
+          {
+            "token": " annotations",
+            "logit": 3.2112
+          },
+          {
+            "token": " confusion",
+            "logit": 3.1907
+          },
+          {
+            "token": " doubt",
+            "logit": 3.1702
+          },
+          {
+            "token": " privacy",
+            "logit": 3.1693
+          },
+          {
+            "token": " secrecy",
+            "logit": 3.1659
+          },
+          {
+            "token": " reconcile",
+            "logit": 3.1346
+          },
+          {
+            "token": " luck",
+            "logit": 3.1123
+          },
+          {
+            "token": " hope",
+            "logit": 3.0982
+          },
+          {
+            "token": " behav",
+            "logit": 3.0979
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "\ufffd",
+            "logit": -4.8037
+          },
+          {
+            "token": "\ufffd",
+            "logit": -4.7326
+          },
+          {
+            "token": "\ufffd",
+            "logit": -4.2496
+          },
+          {
+            "token": "\ufffd",
+            "logit": -4.1475
+          },
+          {
+            "token": "\ufffd",
+            "logit": -4.0039
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.9366
+          },
+          {
+            "token": "ho",
+            "logit": -3.8436
+          },
+          {
+            "token": "regn",
+            "logit": -3.7706
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.6631
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.6535
+          },
+          {
+            "token": "hu",
+            "logit": -3.6424
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.6088
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.5463
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.525
+          },
+          {
+            "token": "\ufffd",
+            "logit": -3.5067
+          }
+        ]
+      }
+    },
+    "1": {
+      "attention_profile": {
+        "self_attention": 0.2169,
+        "bos_attention": 0.0142,
+        "prev_token_attention": 0.442,
+        "entropy_normalized": 0.4676,
+        "avg_lookback": 2.2,
+        "type": "previous-token"
+      },
+      "domain_norms": {
+        "max_domain": "prose",
+        "min_domain": "random",
+        "ratio": 1.5,
+        "per_domain": {
+          "random": 1.1952,
+          "wiki": 1.5882,
+          "poetry": 1.7249,
+          "prose": 1.7907,
+          "code": 1.7423
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 2.4259
+          },
+          {
+            "token": "\ufffd",
+            "logit": 2.031
+          },
+          {
+            "token": "\ufffd",
+            "logit": 2.0258
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.9023
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.8841
+          },
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 1.8505
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.8405
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.7028
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.6745
+          },
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 1.6632
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.6291
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.6228
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.6158
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.6035
+          },
+          {
+            "token": "\ufffd",
+            "logit": 1.5919
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "---|---|---",
+            "logit": -1.4552
+          },
+          {
+            "token": "uxe",
+            "logit": -1.2757
+          },
+          {
+            "token": "ient",
+            "logit": -1.2636
+          },
+          {
+            "token": "eters",
+            "logit": -1.2403
+          },
+          {
+            "token": "called",
+            "logit": -1.1859
+          },
+          {
+            "token": " gels",
+            "logit": -1.175
+          },
+          {
+            "token": " accession",
+            "logit": -1.1294
+          },
+          {
+            "token": "omination",
+            "logit": -1.1182
+          },
+          {
+            "token": "holm",
+            "logit": -1.1142
+          },
+          {
+            "token": "ongs",
+            "logit": -1.1134
+          },
+          {
+            "token": " agar",
+            "logit": -1.1125
+          },
+          {
+            "token": "chaft",
+            "logit": -1.1009
+          },
+          {
+            "token": "ITAL",
+            "logit": -1.0938
+          },
+          {
+            "token": "imon",
+            "logit": -1.0928
+          },
+          {
+            "token": "acrylamide",
+            "logit": -1.0899
+          }
+        ]
+      }
+    },
+    "2": {
+      "attention_profile": {
+        "self_attention": 0.0541,
+        "bos_attention": 0.2726,
+        "prev_token_attention": 0.0334,
+        "entropy_normalized": 0.7848,
+        "avg_lookback": 26.389,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "code",
+        "min_domain": "random",
+        "ratio": 1.24,
+        "per_domain": {
+          "random": 1.0131,
+          "wiki": 1.1825,
+          "poetry": 1.2002,
+          "prose": 1.1834,
+          "code": 1.2596
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "urg",
+            "logit": 1.4159
+          },
+          {
+            "token": "']);",
+            "logit": 1.2125
+          },
+          {
+            "token": "===========================",
+            "logit": 1.2042
+          },
+          {
+            "token": " alarm",
+            "logit": 1.1453
+          },
+          {
+            "token": "ortune",
+            "logit": 1.1417
+          },
+          {
+            "token": "PATH",
+            "logit": 1.1088
+          },
+          {
+            "token": "rout",
+            "logit": 1.0805
+          },
+          {
+            "token": "ustr",
+            "logit": 1.0755
+          },
+          {
+            "token": "=========================",
+            "logit": 1.0745
+          },
+          {
+            "token": "'));",
+            "logit": 1.0739
+          },
+          {
+            "token": "iste",
+            "logit": 1.07
+          },
+          {
+            "token": "urger",
+            "logit": 1.0683
+          },
+          {
+            "token": "ser",
+            "logit": 1.0606
+          },
+          {
+            "token": "cra",
+            "logit": 1.0266
+          },
+          {
+            "token": "!).",
+            "logit": 1.0215
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "",
+            "logit": -1.3897
+          },
+          {
+            "token": "\\n                             ",
+            "logit": -1.3897
+          },
+          {
+            "token": "           \\n ",
+            "logit": -1.3896
+          },
+          {
+            "token": "\\n\\n            ",
+            "logit": -1.3896
+          },
+          {
+            "token": "\\n                         ",
+            "logit": -1.3896
+          },
+          {
+            "token": "",
+            "logit": -1.3896
+          },
+          {
+            "token": "                                                                      ",
+            "logit": -1.3896
+          },
+          {
+            "token": "\\n                                                  ",
+            "logit": -1.3896
+          },
+          {
+            "token": "               ",
+            "logit": -1.3896
+          },
+          {
+            "token": "",
+            "logit": -1.3895
+          },
+          {
+            "token": "",
+            "logit": -1.3895
+          },
+          {
+            "token": "\r\\n     ",
+            "logit": -1.3895
+          },
+          {
+            "token": "                                      ",
+            "logit": -1.3895
+          },
+          {
+            "token": "\\n\\n          ",
+            "logit": -1.3895
+          },
+          {
+            "token": "\\n                    ",
+            "logit": -1.3895
+          }
+        ]
+      }
+    },
+    "3": {
+      "attention_profile": {
+        "self_attention": 0.2075,
+        "bos_attention": 0.1537,
+        "prev_token_attention": 0.028,
+        "entropy_normalized": 0.8564,
+        "avg_lookback": 27.3561,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "prose",
+        "min_domain": "random",
+        "ratio": 1.87,
+        "per_domain": {
+          "random": 1.3403,
+          "wiki": 2.2753,
+          "poetry": 2.482,
+          "prose": 2.5106,
+          "code": 2.4237
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 6.5447
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.9105
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.6504
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.5974
+          },
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 5.4718
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.3971
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.3793
+          },
+          {
+            "token": "\ufffd\ufffd",
+            "logit": 5.2301
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.2298
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.2134
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.0734
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.0508
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.0441
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.0346
+          },
+          {
+            "token": "\ufffd",
+            "logit": 5.0342
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "ers",
+            "logit": -3.3172
+          },
+          {
+            "token": "ters",
+            "logit": -3.2791
+          },
+          {
+            "token": "ster",
+            "logit": -3.2586
+          },
+          {
+            "token": "mers",
+            "logit": -3.1707
+          },
+          {
+            "token": "gels",
+            "logit": -3.128
+          },
+          {
+            "token": "dies",
+            "logit": -3.1092
+          },
+          {
+            "token": "eros",
+            "logit": -3.0362
+          },
+          {
+            "token": "zer",
+            "logit": -3.0318
+          },
+          {
+            "token": "eker",
+            "logit": -3.0203
+          },
+          {
+            "token": "eners",
+            "logit": -2.9847
+          },
+          {
+            "token": "RNAs",
+            "logit": -2.9795
+          },
+          {
+            "token": "sters",
+            "logit": -2.952
+          },
+          {
+            "token": "vs",
+            "logit": -2.9305
+          },
+          {
+            "token": "spe",
+            "logit": -2.9248
+          },
+          {
+            "token": "cursors",
+            "logit": -2.9246
+          }
+        ]
+      }
+    },
+    "4": {
+      "attention_profile": {
+        "self_attention": 0.1353,
+        "bos_attention": 0.0687,
+        "prev_token_attention": 0.2467,
+        "entropy_normalized": 0.7403,
+        "avg_lookback": 9.7909,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "random",
+        "min_domain": "prose",
+        "ratio": 1.15,
+        "per_domain": {
+          "random": 1.4909,
+          "wiki": 1.3946,
+          "poetry": 1.3369,
+          "prose": 1.2964,
+          "code": 1.4049
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "porter",
+            "logit": 1.4549
+          },
+          {
+            "token": "ette",
+            "logit": 1.4094
+          },
+          {
+            "token": "LT",
+            "logit": 1.4005
+          },
+          {
+            "token": "irubin",
+            "logit": 1.3764
+          },
+          {
+            "token": "bu",
+            "logit": 1.3593
+          },
+          {
+            "token": "port",
+            "logit": 1.3388
+          },
+          {
+            "token": "itter",
+            "logit": 1.3237
+          },
+          {
+            "token": "ports",
+            "logit": 1.3066
+          },
+          {
+            "token": "plane",
+            "logit": 1.2783
+          },
+          {
+            "token": "buff",
+            "logit": 1.2779
+          },
+          {
+            "token": "dies",
+            "logit": 1.2623
+          },
+          {
+            "token": "borough",
+            "logit": 1.255
+          },
+          {
+            "token": "medium",
+            "logit": 1.249
+          },
+          {
+            "token": "buffer",
+            "logit": 1.2455
+          },
+          {
+            "token": "mil",
+            "logit": 1.2452
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "\ufffd\ufffd",
+            "logit": -1.5659
+          },
+          {
+            "token": "\ufffd",
+            "logit": -1.5553
+          },
+          {
+            "token": " luck",
+            "logit": -1.4666
+          },
+          {
+            "token": "  \\n ",
+            "logit": -1.4131
+          },
+          {
+            "token": "           \\n ",
+            "logit": -1.4129
+          },
+          {
+            "token": "     \\n ",
+            "logit": -1.4127
+          },
+          {
+            "token": "\\n\\n     ",
+            "logit": -1.4127
+          },
+          {
+            "token": "          \\n ",
+            "logit": -1.4127
+          },
+          {
+            "token": "\\n\\n         ",
+            "logit": -1.4127
+          },
+          {
+            "token": "\\n\\n              ",
+            "logit": -1.4126
+          },
+          {
+            "token": "                                                         ",
+            "logit": -1.4126
+          },
+          {
+            "token": "                                                                     ",
+            "logit": -1.4126
+          },
+          {
+            "token": "\r\\n                   ",
+            "logit": -1.4126
+          },
+          {
+            "token": "\\n    ",
+            "logit": -1.4126
+          },
+          {
+            "token": "\\n  \u00a0",
+            "logit": -1.4126
+          }
+        ]
+      }
+    },
+    "5": {
+      "attention_profile": {
+        "self_attention": 0.1519,
+        "bos_attention": 0.0937,
+        "prev_token_attention": 0.1846,
+        "entropy_normalized": 0.8048,
+        "avg_lookback": 13.7859,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "prose",
+        "min_domain": "random",
+        "ratio": 1.63,
+        "per_domain": {
+          "random": 1.1326,
+          "wiki": 1.7432,
+          "poetry": 1.8057,
+          "prose": 1.8463,
+          "code": 1.785
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": " lieu",
+            "logit": 2.0553
+          },
+          {
+            "token": " development",
+            "logit": 2.0459
+          },
+          {
+            "token": "riad",
+            "logit": 2.0212
+          },
+          {
+            "token": " editing",
+            "logit": 2.019
+          },
+          {
+            "token": " writing",
+            "logit": 1.9794
+          },
+          {
+            "token": "chnology",
+            "logit": 1.9488
+          },
+          {
+            "token": " ethical",
+            "logit": 1.917
+          },
+          {
+            "token": " evaluating",
+            "logit": 1.9033
+          },
+          {
+            "token": " respect",
+            "logit": 1.8851
+          },
+          {
+            "token": "\u2026]",
+            "logit": 1.8471
+          },
+          {
+            "token": " viewer",
+            "logit": 1.8464
+          },
+          {
+            "token": " how",
+            "logit": 1.8432
+          },
+          {
+            "token": " further",
+            "logit": 1.8042
+          },
+          {
+            "token": " our",
+            "logit": 1.7956
+          },
+          {
+            "token": " shark",
+            "logit": 1.79
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "vill",
+            "logit": -2.3959
+          },
+          {
+            "token": "\"\"",
+            "logit": -2.1944
+          },
+          {
+            "token": ".^\\[[@",
+            "logit": -2.1124
+          },
+          {
+            "token": "sburg",
+            "logit": -2.11
+          },
+          {
+            "token": ",--",
+            "logit": -2.0127
+          },
+          {
+            "token": "ding",
+            "logit": -2.0089
+          },
+          {
+            "token": "boys",
+            "logit": -2.0007
+          },
+          {
+            "token": "ingle",
+            "logit": -1.9832
+          },
+          {
+            "token": "ounces",
+            "logit": -1.9621
+          },
+          {
+            "token": "|_{",
+            "logit": -1.9598
+          },
+          {
+            "token": ";",
+            "logit": -1.955
+          },
+          {
+            "token": "ville",
+            "logit": -1.9435
+          },
+          {
+            "token": " \\[[@",
+            "logit": -1.9362
+          },
+          {
+            "token": "ulative",
+            "logit": -1.9279
+          },
+          {
+            "token": ".\\[[@",
+            "logit": -1.9224
+          }
+        ]
+      }
+    },
+    "6": {
+      "attention_profile": {
+        "self_attention": 0.0501,
+        "bos_attention": 0.431,
+        "prev_token_attention": 0.0355,
+        "entropy_normalized": 0.6978,
+        "avg_lookback": 33.6191,
+        "type": "BOS-attending"
+      },
+      "domain_norms": {
+        "max_domain": "prose",
+        "min_domain": "random",
+        "ratio": 2.92,
+        "per_domain": {
+          "random": 1.0519,
+          "wiki": 2.7933,
+          "poetry": 3.0033,
+          "prose": 3.0759,
+          "code": 2.8167
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "burg",
+            "logit": 4.7985
+          },
+          {
+            "token": "ball",
+            "logit": 4.601
+          },
+          {
+            "token": "abs",
+            "logit": 4.5971
+          },
+          {
+            "token": "ORANDUM",
+            "logit": 4.4285
+          },
+          {
+            "token": "lords",
+            "logit": 4.3928
+          },
+          {
+            "token": "cans",
+            "logit": 4.3639
+          },
+          {
+            "token": "cyl",
+            "logit": 4.3077
+          },
+          {
+            "token": "density",
+            "logit": 4.2978
+          },
+          {
+            "token": "Ball",
+            "logit": 4.2655
+          },
+          {
+            "token": "xB",
+            "logit": 4.2564
+          },
+          {
+            "token": "hire",
+            "logit": 4.2393
+          },
+          {
+            "token": "balls",
+            "logit": 4.2219
+          },
+          {
+            "token": "District",
+            "logit": 4.1923
+          },
+          {
+            "token": "domin",
+            "logit": 4.1871
+          },
+          {
+            "token": " (\\~",
+            "logit": 4.1443
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": "\ufffd\ufffd",
+            "logit": -5.969
+          },
+          {
+            "token": "\ufffd",
+            "logit": -5.2812
+          },
+          {
+            "token": "  \\n ",
+            "logit": -5.2603
+          },
+          {
+            "token": "                                          ",
+            "logit": -5.2516
+          },
+          {
+            "token": "\\n                ",
+            "logit": -5.2514
+          },
+          {
+            "token": "\\n\\n                                             ",
+            "logit": -5.2514
+          },
+          {
+            "token": "\r\\n  ",
+            "logit": -5.2514
+          },
+          {
+            "token": "                                                              ",
+            "logit": -5.2514
+          },
+          {
+            "token": "\\n\\n                 ",
+            "logit": -5.2514
+          },
+          {
+            "token": "\\n  \u00a0",
+            "logit": -5.2514
+          },
+          {
+            "token": "\\n                                        ",
+            "logit": -5.2514
+          },
+          {
+            "token": "\\n                  ",
+            "logit": -5.2513
+          },
+          {
+            "token": "                                                                   ",
+            "logit": -5.2513
+          },
+          {
+            "token": "\r\\n\r\\n           ",
+            "logit": -5.2513
+          },
+          {
+            "token": "\\n\\n                       ",
+            "logit": -5.2512
+          }
+        ]
+      }
+    },
+    "7": {
+      "attention_profile": {
+        "self_attention": 0.1429,
+        "bos_attention": 0.0205,
+        "prev_token_attention": 0.283,
+        "entropy_normalized": 0.7685,
+        "avg_lookback": 11.6773,
+        "type": "broad/distributed"
+      },
+      "domain_norms": {
+        "max_domain": "code",
+        "min_domain": "wiki",
+        "ratio": 1.13,
+        "per_domain": {
+          "random": 1.8679,
+          "wiki": 1.8337,
+          "poetry": 1.8437,
+          "prose": 1.8416,
+          "code": 2.066
+        }
+      },
+      "logit_attribution": {
+        "top_promoted": [
+          {
+            "token": "'):",
+            "logit": 1.8138
+          },
+          {
+            "token": "ette",
+            "logit": 1.7369
+          },
+          {
+            "token": "shirts",
+            "logit": 1.7066
+          },
+          {
+            "token": "ALS",
+            "logit": 1.6641
+          },
+          {
+            "token": "esses",
+            "logit": 1.6441
+          },
+          {
+            "token": "fires",
+            "logit": 1.6213
+          },
+          {
+            "token": "ols",
+            "logit": 1.596
+          },
+          {
+            "token": "bent",
+            "logit": 1.5886
+          },
+          {
+            "token": "dies",
+            "logit": 1.5824
+          },
+          {
+            "token": ".(",
+            "logit": 1.56
+          },
+          {
+            "token": "oy",
+            "logit": 1.5583
+          },
+          {
+            "token": "bil",
+            "logit": 1.5485
+          },
+          {
+            "token": "ettes",
+            "logit": 1.5423
+          },
+          {
+            "token": "mu",
+            "logit": 1.5364
+          },
+          {
+            "token": "mol",
+            "logit": 1.5281
+          }
+        ],
+        "top_suppressed": [
+          {
+            "token": " causality",
+            "logit": -1.7537
+          },
+          {
+            "token": " textual",
+            "logit": -1.5488
+          },
+          {
+            "token": " Professor",
+            "logit": -1.5482
+          },
+          {
+            "token": " dialogue",
+            "logit": -1.5262
+          },
+          {
+            "token": " chairs",
+            "logit": -1.5221
+          },
+          {
+            "token": " review",
+            "logit": -1.5143
+          },
+          {
+            "token": " caution",
+            "logit": -1.5101
+          },
+          {
+            "token": " auditor",
+            "logit": -1.4968
+          },
+          {
+            "token": " professor",
+            "logit": -1.4967
+          },
+          {
+            "token": " apolog",
+            "logit": -1.4952
+          },
+          {
+            "token": " clarity",
+            "logit": -1.4942
+          },
+          {
+            "token": "rieved",
+            "logit": -1.4865
+          },
+          {
+            "token": " reply",
+            "logit": -1.4744
+          },
+          {
+            "token": " supreme",
+            "logit": -1.4724
+          },
+          {
+            "token": " prayer",
+            "logit": -1.471
+          }
+        ]
+      }
+    }
+  }
+}

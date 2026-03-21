@@ -1,0 +1,1301 @@
+{
+  "n": 10,
+  "sae_config": {
+    "d_model": 128,
+    "n_features": 1024,
+    "top_k": 20,
+    "layers": [
+      0,
+      2,
+      5
+    ],
+    "train_steps": 30000,
+    "n_train_perms": 5000
+  },
+  "census": {
+    "0": {
+      "total": 1024,
+      "dead": 440,
+      "alive": 584,
+      "universal": 525,
+      "shared": 58,
+      "domain_specific": 1
+    },
+    "2": {
+      "total": 1024,
+      "dead": 70,
+      "alive": 954,
+      "universal": 621,
+      "shared": 331,
+      "domain_specific": 2
+    },
+    "5": {
+      "total": 1024,
+      "dead": 22,
+      "alive": 1002,
+      "universal": 686,
+      "shared": 314,
+      "domain_specific": 2
+    }
+  },
+  "token_analysis": {
+    "0": {
+      "272": {
+        "mean_activation": 0.661536,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            15
+          ],
+          [
+            "P[4]",
+            12
+          ],
+          [
+            "P[3]",
+            7
+          ]
+        ]
+      },
+      "101": {
+        "mean_activation": 0.604669,
+        "tableau_preference": {
+          "P": 41,
+          "Q": 9
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            13
+          ],
+          [
+            "P[8]",
+            11
+          ],
+          [
+            "P[7]",
+            6
+          ]
+        ]
+      },
+      "549": {
+        "mean_activation": 0.432911,
+        "tableau_preference": {
+          "P": 44,
+          "Q": 6
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            44
+          ],
+          [
+            "Q[0]",
+            6
+          ]
+        ]
+      },
+      "771": {
+        "mean_activation": 0.430405,
+        "tableau_preference": {
+          "P": 12,
+          "Q": 38
+        },
+        "top_positions": [
+          [
+            "Q[3]",
+            18
+          ],
+          [
+            "Q[2]",
+            8
+          ],
+          [
+            "Q[8]",
+            7
+          ]
+        ]
+      },
+      "567": {
+        "mean_activation": 0.405805,
+        "tableau_preference": {
+          "P": 19,
+          "Q": 31
+        },
+        "top_positions": [
+          [
+            "Q[0]",
+            18
+          ],
+          [
+            "Q[1]",
+            13
+          ],
+          [
+            "P[0]",
+            9
+          ]
+        ]
+      },
+      "355": {
+        "mean_activation": 0.39503,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[0]",
+            35
+          ],
+          [
+            "Q[4]",
+            10
+          ],
+          [
+            "Q[6]",
+            2
+          ]
+        ]
+      },
+      "523": {
+        "mean_activation": 0.392264,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[9]",
+            36
+          ],
+          [
+            "Q[8]",
+            12
+          ],
+          [
+            "Q[7]",
+            2
+          ]
+        ]
+      },
+      "517": {
+        "mean_activation": 0.379829,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            31
+          ],
+          [
+            "P[4]",
+            16
+          ],
+          [
+            "P[2]",
+            2
+          ]
+        ]
+      },
+      "655": {
+        "mean_activation": 0.311963,
+        "tableau_preference": {
+          "P": 26,
+          "Q": 24
+        },
+        "top_positions": [
+          [
+            "P[4]",
+            14
+          ],
+          [
+            "Q[3]",
+            11
+          ],
+          [
+            "Q[4]",
+            9
+          ]
+        ]
+      },
+      "152": {
+        "mean_activation": 0.308318,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[4]",
+            15
+          ],
+          [
+            "P[3]",
+            12
+          ],
+          [
+            "P[0]",
+            10
+          ]
+        ]
+      },
+      "966": {
+        "mean_activation": 0.292787,
+        "tableau_preference": {
+          "P": 48,
+          "Q": 2
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            48
+          ],
+          [
+            "Q[0]",
+            2
+          ]
+        ]
+      },
+      "473": {
+        "mean_activation": 0.290708,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[9]",
+            23
+          ],
+          [
+            "P[8]",
+            20
+          ],
+          [
+            "P[7]",
+            7
+          ]
+        ]
+      },
+      "293": {
+        "mean_activation": 0.28677,
+        "tableau_preference": {
+          "P": 41,
+          "Q": 9
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            19
+          ],
+          [
+            "P[1]",
+            17
+          ],
+          [
+            "Q[0]",
+            7
+          ]
+        ]
+      },
+      "282": {
+        "mean_activation": 0.281253,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[5]",
+            14
+          ],
+          [
+            "P[6]",
+            13
+          ],
+          [
+            "P[4]",
+            9
+          ]
+        ]
+      },
+      "749": {
+        "mean_activation": 0.277436,
+        "tableau_preference": {
+          "P": 40,
+          "Q": 10
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            23
+          ],
+          [
+            "P[1]",
+            11
+          ],
+          [
+            "Q[0]",
+            8
+          ]
+        ]
+      },
+      "20": {
+        "mean_activation": 0.249276,
+        "tableau_preference": {
+          "P": 9,
+          "Q": 41
+        },
+        "top_positions": [
+          [
+            "Q[6]",
+            13
+          ],
+          [
+            "Q[8]",
+            8
+          ],
+          [
+            "Q[7]",
+            8
+          ]
+        ]
+      },
+      "719": {
+        "mean_activation": 0.248575,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            28
+          ],
+          [
+            "P[4]",
+            16
+          ],
+          [
+            "P[5]",
+            5
+          ]
+        ]
+      },
+      "275": {
+        "mean_activation": 0.234077,
+        "tableau_preference": {
+          "P": 28,
+          "Q": 22
+        },
+        "top_positions": [
+          [
+            "P[1]",
+            16
+          ],
+          [
+            "Q[0]",
+            11
+          ],
+          [
+            "P[0]",
+            11
+          ]
+        ]
+      },
+      "176": {
+        "mean_activation": 0.233501,
+        "tableau_preference": {
+          "P": 41,
+          "Q": 9
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            23
+          ],
+          [
+            "P[1]",
+            13
+          ],
+          [
+            "Q[1]",
+            5
+          ]
+        ]
+      },
+      "17": {
+        "mean_activation": 0.233411,
+        "tableau_preference": {
+          "P": 5,
+          "Q": 45
+        },
+        "top_positions": [
+          [
+            "Q[0]",
+            37
+          ],
+          [
+            "Q[1]",
+            5
+          ],
+          [
+            "P[0]",
+            4
+          ]
+        ]
+      }
+    },
+    "2": {
+      "82": {
+        "mean_activation": 0.675139,
+        "tableau_preference": {
+          "P": 25,
+          "Q": 25
+        },
+        "top_positions": [
+          [
+            "Q[4]",
+            16
+          ],
+          [
+            "P[4]",
+            15
+          ],
+          [
+            "P[5]",
+            6
+          ]
+        ]
+      },
+      "175": {
+        "mean_activation": 0.58042,
+        "tableau_preference": {
+          "P": 24,
+          "Q": 26
+        },
+        "top_positions": [
+          [
+            "Q[7]",
+            6
+          ],
+          [
+            "Q[4]",
+            6
+          ],
+          [
+            "Q[6]",
+            6
+          ]
+        ]
+      },
+      "707": {
+        "mean_activation": 0.541672,
+        "tableau_preference": {
+          "P": 35,
+          "Q": 15
+        },
+        "top_positions": [
+          [
+            "P[5]",
+            6
+          ],
+          [
+            "P[9]",
+            6
+          ],
+          [
+            "P[0]",
+            4
+          ]
+        ]
+      },
+      "293": {
+        "mean_activation": 0.471211,
+        "tableau_preference": {
+          "P": 29,
+          "Q": 21
+        },
+        "top_positions": [
+          [
+            "P[1]",
+            8
+          ],
+          [
+            "Q[1]",
+            6
+          ],
+          [
+            "P[0]",
+            5
+          ]
+        ]
+      },
+      "97": {
+        "mean_activation": 0.439198,
+        "tableau_preference": {
+          "P": 26,
+          "Q": 24
+        },
+        "top_positions": [
+          [
+            "Q[9]",
+            6
+          ],
+          [
+            "P[1]",
+            5
+          ],
+          [
+            "Q[0]",
+            4
+          ]
+        ]
+      },
+      "553": {
+        "mean_activation": 0.385435,
+        "tableau_preference": {
+          "P": 38,
+          "Q": 12
+        },
+        "top_positions": [
+          [
+            "P[1]",
+            11
+          ],
+          [
+            "P[2]",
+            10
+          ],
+          [
+            "P[0]",
+            5
+          ]
+        ]
+      },
+      "301": {
+        "mean_activation": 0.354103,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            24
+          ],
+          [
+            "P[2]",
+            18
+          ],
+          [
+            "P[4]",
+            6
+          ]
+        ]
+      },
+      "199": {
+        "mean_activation": 0.325788,
+        "tableau_preference": {
+          "P": 46,
+          "Q": 4
+        },
+        "top_positions": [
+          [
+            "P[1]",
+            12
+          ],
+          [
+            "P[0]",
+            8
+          ],
+          [
+            "P[8]",
+            6
+          ]
+        ]
+      },
+      "873": {
+        "mean_activation": 0.253414,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[1]",
+            23
+          ],
+          [
+            "Q[4]",
+            8
+          ],
+          [
+            "Q[2]",
+            8
+          ]
+        ]
+      },
+      "984": {
+        "mean_activation": 0.241195,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[9]",
+            35
+          ],
+          [
+            "Q[8]",
+            11
+          ],
+          [
+            "Q[7]",
+            4
+          ]
+        ]
+      },
+      "302": {
+        "mean_activation": 0.23395,
+        "tableau_preference": {
+          "P": 43,
+          "Q": 7
+        },
+        "top_positions": [
+          [
+            "P[2]",
+            11
+          ],
+          [
+            "P[3]",
+            7
+          ],
+          [
+            "P[0]",
+            6
+          ]
+        ]
+      },
+      "445": {
+        "mean_activation": 0.223611,
+        "tableau_preference": {
+          "P": 35,
+          "Q": 15
+        },
+        "top_positions": [
+          [
+            "P[0]",
+            6
+          ],
+          [
+            "P[9]",
+            5
+          ],
+          [
+            "P[3]",
+            5
+          ]
+        ]
+      },
+      "193": {
+        "mean_activation": 0.215278,
+        "tableau_preference": {
+          "P": 39,
+          "Q": 11
+        },
+        "top_positions": [
+          [
+            "P[1]",
+            8
+          ],
+          [
+            "P[2]",
+            7
+          ],
+          [
+            "P[7]",
+            6
+          ]
+        ]
+      },
+      "574": {
+        "mean_activation": 0.191274,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[8]",
+            24
+          ],
+          [
+            "P[7]",
+            14
+          ],
+          [
+            "P[9]",
+            11
+          ]
+        ]
+      },
+      "872": {
+        "mean_activation": 0.189699,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[4]",
+            18
+          ],
+          [
+            "Q[5]",
+            16
+          ],
+          [
+            "Q[3]",
+            12
+          ]
+        ]
+      },
+      "586": {
+        "mean_activation": 0.184779,
+        "tableau_preference": {
+          "P": 38,
+          "Q": 12
+        },
+        "top_positions": [
+          [
+            "P[2]",
+            9
+          ],
+          [
+            "P[1]",
+            6
+          ],
+          [
+            "P[0]",
+            6
+          ]
+        ]
+      },
+      "4": {
+        "mean_activation": 0.182223,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            33
+          ],
+          [
+            "P[2]",
+            10
+          ],
+          [
+            "P[4]",
+            7
+          ]
+        ]
+      },
+      "519": {
+        "mean_activation": 0.173457,
+        "tableau_preference": {
+          "P": 43,
+          "Q": 7
+        },
+        "top_positions": [
+          [
+            "P[4]",
+            24
+          ],
+          [
+            "P[3]",
+            10
+          ],
+          [
+            "P[5]",
+            9
+          ]
+        ]
+      },
+      "384": {
+        "mean_activation": 0.171976,
+        "tableau_preference": {
+          "P": 3,
+          "Q": 47
+        },
+        "top_positions": [
+          [
+            "Q[5]",
+            23
+          ],
+          [
+            "Q[6]",
+            13
+          ],
+          [
+            "Q[4]",
+            9
+          ]
+        ]
+      },
+      "195": {
+        "mean_activation": 0.171215,
+        "tableau_preference": {
+          "P": 49,
+          "Q": 1
+        },
+        "top_positions": [
+          [
+            "P[3]",
+            27
+          ],
+          [
+            "P[4]",
+            16
+          ],
+          [
+            "P[2]",
+            6
+          ]
+        ]
+      }
+    },
+    "5": {
+      "514": {
+        "mean_activation": 0.299866,
+        "tableau_preference": {
+          "P": 20,
+          "Q": 30
+        },
+        "top_positions": [
+          [
+            "Q[1]",
+            5
+          ],
+          [
+            "Q[3]",
+            5
+          ],
+          [
+            "Q[2]",
+            4
+          ]
+        ]
+      },
+      "984": {
+        "mean_activation": 0.276443,
+        "tableau_preference": {
+          "P": 23,
+          "Q": 27
+        },
+        "top_positions": [
+          [
+            "Q[2]",
+            8
+          ],
+          [
+            "Q[1]",
+            6
+          ],
+          [
+            "P[2]",
+            6
+          ]
+        ]
+      },
+      "249": {
+        "mean_activation": 0.264063,
+        "tableau_preference": {
+          "P": 34,
+          "Q": 16
+        },
+        "top_positions": [
+          [
+            "P[5]",
+            5
+          ],
+          [
+            "P[1]",
+            5
+          ],
+          [
+            "P[4]",
+            5
+          ]
+        ]
+      },
+      "733": {
+        "mean_activation": 0.223189,
+        "tableau_preference": {
+          "P": 21,
+          "Q": 29
+        },
+        "top_positions": [
+          [
+            "P[9]",
+            5
+          ],
+          [
+            "Q[9]",
+            4
+          ],
+          [
+            "P[4]",
+            4
+          ]
+        ]
+      },
+      "866": {
+        "mean_activation": 0.159507,
+        "tableau_preference": {
+          "P": 28,
+          "Q": 22
+        },
+        "top_positions": [
+          [
+            "Q[2]",
+            6
+          ],
+          [
+            "P[1]",
+            5
+          ],
+          [
+            "P[3]",
+            4
+          ]
+        ]
+      },
+      "0": {
+        "mean_activation": 0.149554,
+        "tableau_preference": {
+          "P": 32,
+          "Q": 18
+        },
+        "top_positions": [
+          [
+            "P[4]",
+            6
+          ],
+          [
+            "P[5]",
+            4
+          ],
+          [
+            "P[7]",
+            4
+          ]
+        ]
+      },
+      "660": {
+        "mean_activation": 0.148471,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[9]",
+            35
+          ],
+          [
+            "Q[8]",
+            11
+          ],
+          [
+            "Q[7]",
+            4
+          ]
+        ]
+      },
+      "139": {
+        "mean_activation": 0.147795,
+        "tableau_preference": {
+          "P": 26,
+          "Q": 24
+        },
+        "top_positions": [
+          [
+            "P[8]",
+            6
+          ],
+          [
+            "Q[7]",
+            5
+          ],
+          [
+            "Q[8]",
+            5
+          ]
+        ]
+      },
+      "864": {
+        "mean_activation": 0.136713,
+        "tableau_preference": {
+          "P": 28,
+          "Q": 22
+        },
+        "top_positions": [
+          [
+            "Q[2]",
+            5
+          ],
+          [
+            "Q[4]",
+            5
+          ],
+          [
+            "P[7]",
+            4
+          ]
+        ]
+      },
+      "640": {
+        "mean_activation": 0.111804,
+        "tableau_preference": {
+          "P": 25,
+          "Q": 25
+        },
+        "top_positions": [
+          [
+            "Q[6]",
+            5
+          ],
+          [
+            "P[5]",
+            4
+          ],
+          [
+            "P[7]",
+            3
+          ]
+        ]
+      },
+      "707": {
+        "mean_activation": 0.110532,
+        "tableau_preference": {
+          "P": 7,
+          "Q": 43
+        },
+        "top_positions": [
+          [
+            "Q[7]",
+            14
+          ],
+          [
+            "Q[9]",
+            10
+          ],
+          [
+            "Q[8]",
+            10
+          ]
+        ]
+      },
+      "484": {
+        "mean_activation": 0.109596,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[4]",
+            17
+          ],
+          [
+            "Q[5]",
+            17
+          ],
+          [
+            "Q[6]",
+            8
+          ]
+        ]
+      },
+      "9": {
+        "mean_activation": 0.108909,
+        "tableau_preference": {
+          "P": 50,
+          "Q": 0
+        },
+        "top_positions": [
+          [
+            "P[8]",
+            22
+          ],
+          [
+            "P[9]",
+            18
+          ],
+          [
+            "P[7]",
+            9
+          ]
+        ]
+      },
+      "462": {
+        "mean_activation": 0.105992,
+        "tableau_preference": {
+          "P": 23,
+          "Q": 27
+        },
+        "top_positions": [
+          [
+            "Q[8]",
+            4
+          ],
+          [
+            "Q[4]",
+            4
+          ],
+          [
+            "Q[0]",
+            3
+          ]
+        ]
+      },
+      "199": {
+        "mean_activation": 0.098898,
+        "tableau_preference": {
+          "P": 28,
+          "Q": 22
+        },
+        "top_positions": [
+          [
+            "P[9]",
+            3
+          ],
+          [
+            "Q[1]",
+            3
+          ],
+          [
+            "Q[3]",
+            3
+          ]
+        ]
+      },
+      "750": {
+        "mean_activation": 0.095759,
+        "tableau_preference": {
+          "P": 26,
+          "Q": 24
+        },
+        "top_positions": [
+          [
+            "Q[8]",
+            4
+          ],
+          [
+            "P[8]",
+            4
+          ],
+          [
+            "Q[4]",
+            4
+          ]
+        ]
+      },
+      "181": {
+        "mean_activation": 0.095067,
+        "tableau_preference": {
+          "P": 0,
+          "Q": 50
+        },
+        "top_positions": [
+          [
+            "Q[8]",
+            18
+          ],
+          [
+            "Q[7]",
+            17
+          ],
+          [
+            "Q[6]",
+            12
+          ]
+        ]
+      },
+      "693": {
+        "mean_activation": 0.08954,
+        "tableau_preference": {
+          "P": 21,
+          "Q": 29
+        },
+        "top_positions": [
+          [
+            "Q[7]",
+            4
+          ],
+          [
+            "Q[3]",
+            4
+          ],
+          [
+            "Q[5]",
+            3
+          ]
+        ]
+      },
+      "77": {
+        "mean_activation": 0.089369,
+        "tableau_preference": {
+          "P": 29,
+          "Q": 21
+        },
+        "top_positions": [
+          [
+            "P[2]",
+            4
+          ],
+          [
+            "P[3]",
+            4
+          ],
+          [
+            "P[5]",
+            3
+          ]
+        ]
+      },
+      "735": {
+        "mean_activation": 0.089182,
+        "tableau_preference": {
+          "P": 14,
+          "Q": 36
+        },
+        "top_positions": [
+          [
+            "Q[3]",
+            23
+          ],
+          [
+            "Q[4]",
+            11
+          ],
+          [
+            "P[4]",
+            7
+          ]
+        ]
+      }
+    }
+  }
+}

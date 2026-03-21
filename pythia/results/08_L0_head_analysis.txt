@@ -1,0 +1,67 @@
+================================================================================
+LAYER 0: HEAD-BY-HEAD INTERPRETATION
+================================================================================
+
+── L0H0 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.078  bos=0.079  prev=0.074  entropy=0.889  lookback=15.7
+  Domain preference: 2.4× (max=prose, min=random)
+  Per-domain norms: random=1.165  wiki=2.357  poetry=2.739  prose=2.822  code=2.273
+  Promotes:   ' reconciliation' (3.335), ' order' (3.322), ' follow' (3.279), ' publish' (3.277), ' deception' (3.241)
+  Suppresses: '�' (-4.804), '�' (-4.733), '�' (-4.250), '�' (-4.147), '�' (-4.004)
+
+── L0H1 ────────────────────────────────────────────────────────────
+  Type: previous-token
+  Attention: self=0.217  bos=0.014  prev=0.442  entropy=0.468  lookback=2.2
+  Domain preference: 1.5× (max=prose, min=random)
+  Per-domain norms: random=1.195  wiki=1.588  poetry=1.725  prose=1.791  code=1.742
+  Promotes:   '��' (2.426), '�' (2.031), '�' (2.026), '�' (1.902), '�' (1.884)
+  Suppresses: '---|---|---' (-1.455), 'uxe' (-1.276), 'ient' (-1.264), 'eters' (-1.240), 'called' (-1.186)
+
+── L0H2 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.054  bos=0.273  prev=0.033  entropy=0.785  lookback=26.4
+  Domain preference: 1.2× (max=code, min=random)
+  Per-domain norms: random=1.013  wiki=1.183  poetry=1.200  prose=1.183  code=1.260
+  Promotes:   'urg' (1.416), '']);' (1.212), '===========================' (1.204), ' alarm' (1.145), 'ortune' (1.142)
+  Suppresses: '' (-1.390), '\n                             ' (-1.390), '           \n ' (-1.390), '\n\n            ' (-1.390), '\n                         ' (-1.390)
+
+── L0H3 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.207  bos=0.154  prev=0.028  entropy=0.856  lookback=27.4
+  Domain preference: 1.9× (max=prose, min=random)
+  Per-domain norms: random=1.340  wiki=2.275  poetry=2.482  prose=2.511  code=2.424
+  Promotes:   '��' (6.545), '�' (5.910), '�' (5.650), '�' (5.597), '��' (5.472)
+  Suppresses: 'ers' (-3.317), 'ters' (-3.279), 'ster' (-3.259), 'mers' (-3.171), 'gels' (-3.128)
+
+── L0H4 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.135  bos=0.069  prev=0.247  entropy=0.740  lookback=9.8
+  Domain preference: 1.1× (max=random, min=prose)
+  Per-domain norms: random=1.491  wiki=1.395  poetry=1.337  prose=1.296  code=1.405
+  Promotes:   'porter' (1.455), 'ette' (1.409), 'LT' (1.401), 'irubin' (1.376), 'bu' (1.359)
+  Suppresses: '��' (-1.566), '�' (-1.555), ' luck' (-1.467), '  \n ' (-1.413), '           \n ' (-1.413)
+
+── L0H5 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.152  bos=0.094  prev=0.185  entropy=0.805  lookback=13.8
+  Domain preference: 1.6× (max=prose, min=random)
+  Per-domain norms: random=1.133  wiki=1.743  poetry=1.806  prose=1.846  code=1.785
+  Promotes:   ' lieu' (2.055), ' development' (2.046), 'riad' (2.021), ' editing' (2.019), ' writing' (1.979)
+  Suppresses: 'vill' (-2.396), '""' (-2.194), '.^\[[@' (-2.112), 'sburg' (-2.110), ',--' (-2.013)
+
+── L0H6 ────────────────────────────────────────────────────────────
+  Type: BOS-attending
+  Attention: self=0.050  bos=0.431  prev=0.035  entropy=0.698  lookback=33.6
+  Domain preference: 2.9× (max=prose, min=random)
+  Per-domain norms: random=1.052  wiki=2.793  poetry=3.003  prose=3.076  code=2.817
+  Promotes:   'burg' (4.798), 'ball' (4.601), 'abs' (4.597), 'ORANDUM' (4.428), 'lords' (4.393)
+  Suppresses: '��' (-5.969), '�' (-5.281), '  \n ' (-5.260), '                                          ' (-5.252), '\n                ' (-5.251)
+
+── L0H7 ────────────────────────────────────────────────────────────
+  Type: broad/distributed
+  Attention: self=0.143  bos=0.021  prev=0.283  entropy=0.768  lookback=11.7
+  Domain preference: 1.1× (max=code, min=wiki)
+  Per-domain norms: random=1.868  wiki=1.834  poetry=1.844  prose=1.842  code=2.066
+  Promotes:   ''):' (1.814), 'ette' (1.737), 'shirts' (1.707), 'ALS' (1.664), 'esses' (1.644)
+  Suppresses: ' causality' (-1.754), ' textual' (-1.549), ' Professor' (-1.548), ' dialogue' (-1.526), ' chairs' (-1.522)

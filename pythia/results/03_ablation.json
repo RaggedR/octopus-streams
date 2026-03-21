@@ -1,0 +1,50 @@
+{
+  "none (baseline)": {
+    "heads_ablated": 0,
+    "perplexity": 44.58,
+    "accuracy": 0.3096,
+    "avg_loss": 3.7974
+  },
+  "early arm (L0+L1)": {
+    "heads_ablated": 16,
+    "perplexity": 1345.81,
+    "accuracy": 0.0711,
+    "avg_loss": 7.2048
+  },
+  "late arm (L3+L4+L5)": {
+    "heads_ablated": 24,
+    "perplexity": 1051.64,
+    "accuracy": 0.1777,
+    "avg_loss": 6.9581
+  },
+  "bridge (L2)": {
+    "heads_ablated": 8,
+    "perplexity": 177.97,
+    "accuracy": 0.1929,
+    "avg_loss": 5.1816
+  },
+  "correlated chain (L3H0+L4H2+L5H3)": {
+    "heads_ablated": 3,
+    "perplexity": 50.34,
+    "accuracy": 0.2893,
+    "avg_loss": 3.9189
+  },
+  "random 3 heads": {
+    "heads_ablated": 3,
+    "perplexity": 114.12,
+    "accuracy": 0.2487,
+    "avg_loss": 4.7372
+  },
+  "all layer 0": {
+    "heads_ablated": 8,
+    "perplexity": 952.23,
+    "accuracy": 0.0914,
+    "avg_loss": 6.8588
+  },
+  "all layer 5": {
+    "heads_ablated": 8,
+    "perplexity": 60.08,
+    "accuracy": 0.2538,
+    "avg_loss": 4.0956
+  }
+}

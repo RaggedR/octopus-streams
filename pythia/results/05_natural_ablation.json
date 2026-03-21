@@ -1,0 +1,56 @@
+{
+  "none (baseline)": {
+    "heads_ablated": 0,
+    "avg_loss": 4.7338,
+    "perplexity": 113.72,
+    "accuracy": 0.2536
+  },
+  "early arm (L0+L1)": {
+    "heads_ablated": 16,
+    "avg_loss": 7.9639,
+    "perplexity": 2875.36,
+    "accuracy": 0.0327
+  },
+  "late arm (L3+L4+L5)": {
+    "heads_ablated": 24,
+    "avg_loss": 7.5546,
+    "perplexity": 1909.57,
+    "accuracy": 0.14
+  },
+  "layer 0 only": {
+    "heads_ablated": 8,
+    "avg_loss": 7.6107,
+    "perplexity": 2019.6,
+    "accuracy": 0.0616
+  },
+  "layer 3 only (nat-lang hub)": {
+    "heads_ablated": 8,
+    "avg_loss": 6.2352,
+    "perplexity": 510.41,
+    "accuracy": 0.1628
+  },
+  "layer 5 only": {
+    "heads_ablated": 8,
+    "avg_loss": 4.984,
+    "perplexity": 146.06,
+    "accuracy": 0.2317
+  },
+  "L3H6 cluster (L2H6+L3H1+L3H5+L3H6+L4H7)": {
+    "heads_ablated": 5,
+    "avg_loss": 4.8899,
+    "perplexity": 132.94,
+    "accuracy": 0.2339
+  },
+  "random-token chain (L3H0+L4H2+L5H3)": {
+    "heads_ablated": 3,
+    "avg_loss": 4.8116,
+    "perplexity": 122.93,
+    "accuracy": 0.2434
+  },
+  "random 5 heads (control)": {
+    "heads_ablated": 5,
+    "avg_loss": 5.0704,
+    "perplexity": 159.23,
+    "accuracy": 0.2302
+  }
+}
