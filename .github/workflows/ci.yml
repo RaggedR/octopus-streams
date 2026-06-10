@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify-claims:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Re-checks the README's headline numbers (growth-diagram correlation,
+      # ablation accuracy) against the committed result artifacts in
+      # rsk/results/. Stdlib only — full experiments need a GPU and live in
+      # the numbered scripts.
+      - name: Verify README claims from committed artifacts
+        run: python verify_growth_diagram.py
+
+      - name: Compile-check all experiment scripts
+        run: |
+          python -m py_compile verify_growth_diagram.py
+          find rsk pythia -name '*.py' -print0 | xargs -0 -n1 python -m py_compile
+          echo "All scripts compile"
