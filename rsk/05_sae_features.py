@@ -208,6 +208,8 @@ def describe_token(token_idx, n):
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def run_experiment(n: int):
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
     print(f"\n{'='*60}")
     print(f"  Experiment 05 — SAE Features (n={n})")
     print(f"{'='*60}")

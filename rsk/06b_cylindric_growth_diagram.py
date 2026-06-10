@@ -300,8 +300,7 @@ def run_experiment():
                 # Baseline: if attention were uniform, each cell gets 1/T
                 # Each triple contributes 2 cells, so expected = 2*len(triples)/T
                 n_cells = 2 * len(triples)
-                baseline = n_cells / T  # expected attention to these cells under uniform
-                total_attn = pa.sum().item() / T  # mean total attention per source partition
+                baseline = n_cells / T  # expected attention to these n_cells under uniform distribution
 
                 # Score = actual / expected
                 score = triple_attn / max(baseline, 1e-10)

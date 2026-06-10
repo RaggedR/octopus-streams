@@ -24,9 +24,13 @@ Interpretability experiments on a 1.2M-parameter encoder-only transformer that c
 
 ### Key findings
 
-- **Pipeline, not streams**: L0 parses P/Q, L1-L2 cross-reference, L3 refines, L4-L5 idle (for n=8/10). Layer 2 is critical — ablating it drops accuracy to 62%.
+- **Pipeline, not streams**: L0 parses P/Q, L1-L2 cross-reference, L3 refines, L4-L5 idle (for n=8/10). Layer 2 is critical — ablating it drops greedy exact-match accuracy to ~62% (for n=8 and n=10).
 - **Phase transition**: sharp entropy boundary between structured and uniform attention; disappears at n=15 as the pipeline fills all layers.
-- **Growth diagram signal (partial result)**: on the cylindric CPP model, attention in Layer 2 concentrates on the partition triples where the Burge local rule operates (2.5-3.7x above baseline). On permutation RSK, the signal is weaker and inconclusive.
+- **Growth diagram signal (partial result)**: on the cylindric CPP model, four Layer 2 heads show 2.6-3.7x concentration on local-rule partition triples (per-head maximum at best depth); the layer-averaged signal peaks at 1.65x. The remaining four Layer 2 heads show 1.2-1.6x signal. On permutation RSK, the signal is weaker and inconclusive.
+
+![Layer ablation — ablating Layer 2 drops accuracy to 62%](rsk/results/02_n10_layer_ablation.png)
+
+![Growth diagram signal — Layer 2 heads show 2.6-3.7x concentration on local rule triples](rsk/results/06b_cyl10101010_layer_depth.png)
 
 See [rsk/results/06_report.md](rsk/results/06_report.md) for the full interpretability report.
 
